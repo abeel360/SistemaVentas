@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Editar Imagen de Perfil</h2>
+<mat-dialog-content>
+  <form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="full-width">
+      <mat-label>Seleccionar Nueva Imagen</mat-label>
+      <input 
+        type="file" 
+        (change)="onFileSelected($event)" 
+        accept=".jpg, .jpeg, .png" 
+        required 
+        matInput
+      />
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-raised-button color="primary" type="submit" [disabled]="uploadForm.invalid" (click)="onSubmit()">Guardar</button>
+</mat-dialog-actions>
