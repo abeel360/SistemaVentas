@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TpKdXGdpiUkc2LCKA2tVxkANAHK99tHe8uRAwd/VHXe0HSbkB7+PiDLdFoBikGFcyFeRNm279L0twoDyHxJ0yg==",
+  "dgSpecHash": "JwuYIrS8hhFoikrx1nEJdUhK7G/K78eWOTYxiE++9ZO9/7tE53qPn8gekLG3rvGqH0fICRHG5BV9DkOKB5e5kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+  "projectFilePath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abel_\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\abel_\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

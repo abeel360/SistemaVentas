@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p0oSkoPTrg8NNshxlX0z09eN9lxd959YejH3wshqapIVqLwbvjPSJ7vN1kHi3L6MMcbPGH35GO8CVKDBAGeBKA==",
+  "dgSpecHash": "tTSBKHhs6KCAY0Zd7WMdj+Mhnz4woyWYZaS9XBGPfQzZcQNs7qoC33nc/dyq9y/XGwOSIW7jJfJd1JrXDc6J5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+  "projectFilePath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abel_\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\abel_\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

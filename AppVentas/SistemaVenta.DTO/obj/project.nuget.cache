@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pwpmnLzBG4R4WgjP11qRH4P0o4EBVCoH72A/cB2RYnZrad4fITHsgMgj+/bc+mGxLGL4XjOaN1C5Pk0WTXdZGg==",
+  "dgSpecHash": "ixZvnwcHr4Axy7sDJWvggKlW/X4DSbaZcFzTp0C2IdbM+9OlE3Cr4ABG2hwQRruPKlEVA1IO2oztg5lquctT2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+  "projectFilePath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

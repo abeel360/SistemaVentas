@@ -1,5 +1,16 @@
-/frontend/node_modules
-/frontend/dist
-/frontend/.angular/cache
+# Para Angular (frontend)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/cache/
+/frontend/.env
+
+# Para .NET Core (backend)
 /backend/bin/
 /backend/obj/
+/backend/appsettings.json
+/backend/.vs/
+/backend/.env
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db

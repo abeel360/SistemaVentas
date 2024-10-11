@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj": {}
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj",
         "projectName": "SistemaVenta.API",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.API\\SistemaVenta.API.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.API\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,20 +32,20 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
         "projectName": "SistemaVenta.BLL",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,17 +124,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
         "projectName": "SistemaVenta.DAL",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -202,8 +202,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
         "projectName": "SistemaVenta.DTO",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -296,14 +296,14 @@
         }
       }
     },
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
         "projectName": "SistemaVenta.IOC",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.IOC\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -324,14 +324,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               }
             }
           }
@@ -365,14 +365,14 @@
         }
       }
     },
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
         "projectName": "SistemaVenta.Model",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -436,14 +436,14 @@
         }
       }
     },
-    "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+    "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
         "projectName": "SistemaVenta.Utility",
-        "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
         "packagesPath": "C:\\Users\\abel_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Utility\\obj\\",
+        "outputPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -464,14 +464,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
               },
-              "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
-                "projectPath": "C:\\Users\\abel_\\source\\repos\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Users\\abel_\\source\\SistemaVentas\\AppVentas\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
               }
             }
           }
