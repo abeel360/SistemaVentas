@@ -30,6 +30,9 @@ export class ModalUsuarioComponent implements OnInit {
   ) { 
     this.formularioUsuario = this.fb.group({
       nombreCompleto : ['',Validators.required],
+      nombre : ['',Validators.required],
+      apellido : ['',Validators.required],
+      numTelef : ['',Validators.required],
       correo : ['',Validators.required],
       idRol : ['',Validators.required],
       clave : ['',Validators.required],
@@ -53,6 +56,9 @@ export class ModalUsuarioComponent implements OnInit {
     if(this.datosUsuario != null){
       this.formularioUsuario.patchValue({
         nombreCompleto : this.datosUsuario.nombreCompleto,
+        nombre : this.datosUsuario.nombre,
+        apellido : this.datosUsuario.apellido,
+        numTelf : this.datosUsuario.numTelefono,
         correo : this.datosUsuario.correo,
         idRol : this.datosUsuario.idRol,
         clave : this.datosUsuario.clave,
@@ -65,6 +71,9 @@ export class ModalUsuarioComponent implements OnInit {
     const _usuario: Usuario = {
       idUsuario : this.datosUsuario == null ? 0 : this.datosUsuario.idUsuario,
       nombreCompleto : this.formularioUsuario.value.nombreCompleto,
+      nombre : this.formularioUsuario.value.nombreCompleto,
+      apellido : this.formularioUsuario.value.nombreCompleto,
+      numTelefono : this.formularioUsuario.value.nombreCompleto,
       correo : this.formularioUsuario.value.correo,
       idRol : this.formularioUsuario.value.idRol,
       rolDescripcion : "",

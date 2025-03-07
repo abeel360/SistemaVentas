@@ -135,14 +135,13 @@ namespace SistemaVenta.Utility
                 );
             #endregion Reporte
 
-            #region
+            #region Archivo
 
             CreateMap<Archivo, ArchivoDTO>().ReverseMap();
 
-            #endregion
+            #endregion Archivo
 
-
-            #region
+            #region ArchivoUsuario
 
             CreateMap<UsuarioArchivos, ArchivoDTO>()
             .ForMember(dest => dest.IdArchivo, opt => opt.MapFrom(src => src.Archivo.IdArchivo))
@@ -152,7 +151,7 @@ namespace SistemaVenta.Utility
             .ForMember(dest => dest.IdUsuario, opt => opt.MapFrom(src => src.IdUsuario));
 
 
-            #endregion
+            #endregion ArchivoUsuario
         }
     }
 }

@@ -9,5 +9,5 @@ public partial class Archivo
     public string Nombre { get; set; }
     public string Extension { get; set; }
     public byte[] ArchivoContenido { get; set; }
-    //public int ProfileImage { get; set; }
+    public DateTime FechaRegistro { get; set; }
 }

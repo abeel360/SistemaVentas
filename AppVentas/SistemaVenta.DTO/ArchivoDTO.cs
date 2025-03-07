@@ -13,5 +13,7 @@ namespace SistemaVenta.DTO
         public string Extension { get; set; }
         public byte[] ArchivoContenido { get; set; }
         public int IdUsuario { get; set; }
+        public DateTime FechaRegistro { get; set; }
+        
     }
 }

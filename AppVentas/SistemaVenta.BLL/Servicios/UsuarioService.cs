@@ -102,6 +102,9 @@ namespace SistemaVenta.BLL.Servicios
                     throw new TaskCanceledException("El usuario no existe");
 
                 usuarioEncontrado.NombreCompleto = usuarioModelo.NombreCompleto;
+                usuarioEncontrado.Nombre = usuarioModelo.Nombre;
+                usuarioEncontrado.Apellido = usuarioModelo.Apellido;
+                usuarioEncontrado.NumTelefono = usuarioModelo.NumTelefono;
                 usuarioEncontrado.Correo = usuarioModelo.Correo;
                 usuarioEncontrado.IdRol = usuarioModelo.IdRol;
                 usuarioEncontrado.Clave = usuarioModelo.Clave;

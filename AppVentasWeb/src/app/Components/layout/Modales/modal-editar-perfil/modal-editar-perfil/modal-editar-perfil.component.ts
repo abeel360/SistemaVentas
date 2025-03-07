@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { AfterViewInit, Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -13,7 +13,15 @@ import { MatDialog } from '@angular/material/dialog';
   templateUrl: './modal-editar-perfil.component.html',
   styleUrls: ['./modal-editar-perfil.component.css']
 })
-export class ModalEditarPerfilComponent {
+export class ModalEditarPerfilComponent implements OnInit, AfterViewInit {
+
+  // Información del usuario
+  nombreUsuario: string = '';
+  nombre: string = '';
+  apellido: string = '';
+  numTelf: string = '';
+  emailUsuario: string = '';
+  imagenUsuario: string | null = null;
 
   uploadForm: FormGroup;
   selectedFile: File | null = null;
@@ -29,8 +37,76 @@ export class ModalEditarPerfilComponent {
   ) {
     // Inicializar el formulario
     this.uploadForm = this.fb.group({
-      archivo: [null, Validators.required] // Cambiado a 'archivo' para que coincida
+      lastName: ['', Validators.required],
+      firstName: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      phone: [''],
+      archivo: [null, Validators.required] // Mantener el archivo, aunque en tu formulario HTML no lo uses directamente
     });
+  }
+
+  ngOnInit(): void {
+    // Cargar información del usuario desde la sesión
+    this.cargarDatosUsuario();
+    this.cargarImagenUsuario();
+  }
+
+  ngAfterViewInit(): void {
+    // Asegúrate de que los datos estén disponibles antes de mostrar el modal
+    if (!this.nombreUsuario || !this.imagenUsuario) {
+      setTimeout(() => {
+        this.cargarDatosUsuario();
+        this.cargarImagenUsuario();
+      }, 100);
+    }
+  }
+
+  // Método para cargar datos del usuario desde el localStorage
+  cargarDatosUsuario(): void {
+    const usuario: Sesion = this.utilidadService.obtenerSesionUsuario();
+    if (usuario) {
+      this.nombreUsuario = usuario.nombreCompleto;
+      this.emailUsuario = usuario.correo;
+
+      // Asignar los valores a los controles del formulario
+      this.uploadForm.patchValue({
+        firstName: usuario.nombreCompleto, // O el campo que corresponda
+        email: usuario.correo,
+        // Puedes agregar más campos si es necesario
+      });
+    } else {
+      console.error('No se pudo obtener la información del usuario');
+    }
+  }
+
+  cargarImagenUsuario(): void {
+    const usuario: Sesion = this.utilidadService.obtenerSesionUsuario();
+    if (usuario && usuario.idUsuario) {
+      this.archivoService.obtenerArchivosPorUsuario(usuario.idUsuario).subscribe({
+        next: (response) => {
+          if (response.status && response.value.length > 0) {
+            const archivo = response.value[0]; // Accede al primer archivo
+            console.log('Archivo recibido:', archivo);
+            
+            if (archivo.archivoContenido) {
+              // Asegúrate de que archivocontenido sea un Uint8Array o base64
+              this.convertirBytesAURL(archivo.archivoContenido); // Convierte los bytes a URL
+            } else {
+              this.imagenUsuario = 'assets/default.png'; // Imagen por defecto si no hay archivo
+            }
+          } else {
+            this.imagenUsuario = 'assets/default.png'; // Imagen por defecto si no hay archivos
+          }
+        },
+        error: (error) => {
+          console.error('Error al cargar la imagen:', error);
+          this.imagenUsuario = 'assets/default.png'; // Imagen por defecto si hay un error
+        }
+      });
+    } else {
+      console.error('No se encontró el ID del usuario en la sesión');
+      this.imagenUsuario = 'assets/default.png'; // Imagen por defecto
+    }
   }
 
   onFileSelected(event: Event) {
@@ -70,6 +146,22 @@ export class ModalEditarPerfilComponent {
         console.error('No se encontró el ID del usuario en la sesión');
         this.utilidadService.mostrarAlerta('Error: No se encontró el ID del usuario', 'Cerrar');
       }
+    }
+  }
+
+  triggerFileInput(): void {
+    const fileInput = document.getElementById('fileInput') as HTMLInputElement;
+    fileInput.click();
+  }
+
+  convertirBytesAURL(base64: string): void {
+    this.imagenUsuario = `data:image/jpeg;base64,${base64}`;
+  }
+
+  // ngOnDestroy para limpiar la URL
+  ngOnDestroy(): void {
+    if (this.imagenUsuario) {
+        URL.revokeObjectURL(this.imagenUsuario);
     }
   }
 

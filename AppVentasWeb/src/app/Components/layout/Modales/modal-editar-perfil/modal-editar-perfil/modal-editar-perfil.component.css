@@ -1,0 +1,56 @@
+/* Asegurarse de que el modal ocupe más espacio */
+.mat-dialog-container {
+    width: 80vw; /* Modal más grande */
+    max-width: 1000px; /* Ancho máximo */
+  }
+  
+  /* Ajustes para los campos dentro del formulario */
+  .form-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Crea columnas dinámicas */
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  /* Para las imágenes */
+  .profile-image-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Imagen de vista previa */
+  .profile-image-container img {
+    width: 150px; /* Tamaño fijo para la imagen */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  /* Cuando el modal es pequeño en dispositivos móviles */
+  @media (max-width: 768px) {
+    .mat-dialog-container {
+      width: 95vw;
+    }
+  
+    .form-container {
+      grid-template-columns: 1fr; /* Los campos se apilan en pantallas pequeñas */
+    }
+  
+    .profile-image-container img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  

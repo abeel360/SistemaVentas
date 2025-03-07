@@ -1,19 +1,60 @@
-<h2 mat-dialog-title>Editar Imagen de Perfil</h2>
+<!-- Modal para editar perfil -->
+<h2 mat-dialog-title>Editar Perfil</h2>
+
 <mat-dialog-content>
-  <form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
-    <mat-form-field class="full-width">
-      <mat-label>Seleccionar Nueva Imagen</mat-label>
-      <input 
-        type="file" 
-        (change)="onFileSelected($event)" 
-        accept=".jpg, .jpeg, .png" 
-        required 
-        matInput
-      />
-    </mat-form-field>
+  <!-- Formulario de edición de perfil -->
+  <form [formGroup]="uploadForm">
+    <div class="form-container">
+
+      <!-- Sección de la imagen y el botón para cambiarla dentro del formulario -->
+      <div class="profile-image-container">
+        <input 
+          type="file" 
+          id="fileInput"
+          (change)="onFileSelected($event)" 
+          accept=".jpg, .jpeg, .png" 
+          hidden
+        />
+        
+        <!-- Mostrar imagen seleccionada, si está disponible -->
+        <div class="contenedor-imagen">
+          <img [src]="imagenUsuario || 'assets/default-profile.png'" alt="Imagen de usuario" [ngClass]="{ 'hidden': !imagenUsuario }" />
+        </div>
+        <button mat-button color="primary" (click)="triggerFileInput()">Cambiar Imagen</button>
+      </div>
+
+      <!-- Información del usuario -->
+      <div class="form-left">
+        <mat-form-field class="full-width">
+          <mat-label>Nombre</mat-label>
+          <input matInput [value]="nombreUsuario" formControlName="firstName" required />
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+          <mat-label>Apellido</mat-label>
+          <input matInput formControlName="lastName" required />
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+          <mat-label>E-mail</mat-label>
+          <input matInput formControlName="email" type="email" required />
+        </mat-form-field>
+      </div>
+
+      <div class="form-right">
+        <mat-form-field class="full-width">
+          <mat-label>Teléfono</mat-label>
+          <input matInput formControlName="phone" type="tel" />
+        </mat-form-field>
+      </div>
+
+    </div>
+
+    <!-- Acciones del formulario -->
+    <mat-dialog-actions align="end">
+      <button mat-button (click)="onCancel()">Cancelar</button>
+      <button mat-raised-button color="primary" [disabled]="uploadForm.invalid" (click)="onSubmit()">Guardar</button>
+    </mat-dialog-actions>
+
   </form>
 </mat-dialog-content>
-<mat-dialog-actions>
-  <button mat-button (click)="onCancel()">Cancelar</button>
-  <button mat-raised-button color="primary" type="submit" [disabled]="uploadForm.invalid" (click)="onSubmit()">Guardar</button>
-</mat-dialog-actions>

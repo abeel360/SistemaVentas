@@ -27,6 +27,7 @@ namespace SistemaVenta.BLL.Servicios
         {
             // Crear el archivo en la base de datos
             var archivo = _mapper.Map<Archivo>(archivoDto);
+            archivo.FechaRegistro = DateTime.Now;
             await _archivoRepositorio.Crear(archivo);
 
             // Crear la relación entre el usuario y el archivo
