@@ -75,12 +75,12 @@
               <input 
                 type="file" 
                 (change)="onFileSelected($event)" 
-                accept=".txt, .pdf, .docx" 
+                accept=".txt, .pdf, .docx, .png, .jpg" 
                 required 
                 matInput
               />
             </mat-form-field>
-            <button mat-raised-button color="primary" type="submit" [disabled]="uploadForm.invalid">Subir Archivo</button>
+            <button mat-raised-button color="primary" type="submit" [disabled]="uploadForm.invalid" (click)="onSubmit()">Subir Archivo</button>
           </form>
         </mat-card-content>
       </mat-card>
